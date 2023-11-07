@@ -1,0 +1,147 @@
+// en.json
+{
+  "setup": {
+    "selectLanguage": {
+    	"title": "Select your language",
+    	"text": "Choose your default language for this device",
+    	"btnEN": "English",
+    	"btnNL": "Nederlands",
+    	"btnFR": "Français"
+    },
+    "register": {
+        "title": "Register Coupeza",
+        "text": "Make an account to set up your device.\nAlready an account yet?",
+        "username": "E-mail",
+        "password": "Password",
+        "password_repeat": "Repeat Password",
+        "password_forget" : "Forgot your password? ",
+        "login_here": "login here",
+        "register_here": "register here",
+        "btnRegister": "Register"
+    },
+    "connect" : {
+    	"btnBack": "Select language",
+    	"title": "Connect your device",
+    	"text": "We need internet connection to register your device.\nPlugin the UTP or connect with WIFI.",
+        "btnConnect": "Connect"
+    },
+    "login" : {
+        "btnBack": "Connect device",
+        "title": "Coupeza Login",
+        "text": "Login with your Coupeza account to set-up device.\nNot an account yet? register at here.",
+        "btnLogin": "Login"
+    },
+    "linkDevice" : {
+        "btnBack": "Login",
+        "title": "Link Device",
+        "text": "Start your Homebase and fill in the code \nto link the device with Coupeza Infinity ",
+        "btnLink": "Link Device"
+    },
+    "nameDevice" : {
+        "btnBack": "Login",
+        "title": "Name Device",
+        "text": "Give your device a name so you can\ntrack all activities done with this device.",
+        "btnSetup": "Setup Name"
+    },
+    "registerCards" : {
+        "btnBack": "Name Device",
+        "title": "Register Cards",
+        "text": "In the box you can find 5 Coupeza cards\nThis cards are used to access the admin. \nPlease swipe over the logo to activate these cards.",
+        "btnSetup": "Register Cards"
+    }
+  },
+  "main": {
+    "mainMenu" : {
+        "btnBack": "Main menu",
+        "title": "Make a choice",
+        "text": "Yes please do it",
+        "items": [{
+            "title" : "Host",
+            "text": "Create new clients, scan and \nregister Coupeza Access",
+            "action": "SelectEvent"
+        }, {
+            "title": "Kiosk",
+            "text": "Lorem ipsum Statistics",
+            "action": "SelectLanguage"
+        }, {
+            "title": "Kassa",
+            "text": "Lorem ipsum Statistics",
+            "action": "SelectLanguage"
+        }, {
+            "title": "Settings",
+            "text": "Lorem ipsum settings",
+            "action": "MainGeneral"
+        }]
+    }
+  },
+    "host": {
+        "selectEvent": {
+            "btnBack": "Main menu",
+            "title": "Select event",
+            "text": "Select the current event and start to scan"
+        }
+    },
+    "settings" : [{ 
+        "title": "Main Settings",
+        "data": [
+            {
+                "title": "General",
+                "text": "General description",
+                "action": "MainGeneral"
+            },
+            {
+                "title": "Users & Groups",
+                "text": "Users description",
+                "action": "MainUsers"
+            },
+            {
+                "title": "Language",
+                "text": "Language description",
+                "action": "MainLanguage"
+            },
+            {
+                "title": "Date & Time",
+                "text": "Date description",
+                "action": "MainDateTime"
+            },
+            {
+                "title": "Keyboard",
+                "text": "Keyboard description",
+                "action": "MainKeyboard"
+            }
+        ]
+    },{
+        "title": "Statistics", 
+        "data": [
+            {
+                "title": "Events",
+                "text": "Events description",
+                "action": "StatsEvents"
+            },
+            {
+                "title": "Clients",
+                "text": "Clients description",
+                "action": "StatsClients"
+            }
+        ]
+    },{
+        "title": "Homebase Device", 
+        "data": [
+            {
+                "title": "General",
+                "text": "General description",
+                "action": "DeviceGeneral"
+            },
+            {
+                "title": "Hardware",
+                "text": "Hardware description",
+                "action": "DeviceHardware"
+            },
+            {
+                "title": "Reset Device",
+                "text": "Reset Device description",
+                "action": "DeviceReset"
+            }
+        ]
+    }]
+ }

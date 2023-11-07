@@ -1,0 +1,47 @@
+// en.json
+{
+  "setup": {
+    "selectLanguage": {
+    	"title": "Kies een taal",
+    	"text": "Maak een taalkeuze om verder te gaan",
+    	"btnEN": "English",
+    	"btnNL": "Nederlands",
+    	"btnFR": "Français"
+    },
+    "register": {
+        "title": "Registreer Coupeza",
+        "text": "Maak een account om uw toestel in te stellen.\nAl reeds een account?",
+        "username": "E-mail",
+        "password": "Wachtwoord",
+        "password_repeat": "Herhaal wachtwoord",
+        "password_forget" : "Wachtwoord vergeten? ",
+        "login_here": "Hier inloggen",
+        "register_here": "hier registreren",
+        "btnRegister": "Registreer"
+    },
+    "connect" : {
+    	"btnBack": "Selecteer taal",
+    	"title": "Maak verbinding met het internet",
+    	"text": "We hebben internet verbinding nodig om het toestel te registreren. \nSteek te UTP kabel in of selecteer een wifi netwerk.",
+        "btnConnect": "Verbinden"
+    },
+    "login" : {
+        "btnBack": "Verbinding maken",
+        "title": "Coupeza Login",
+        "text": "Login met uw Coupeza account om toestel te kunnen instellen.\nNog geen account? registreer dan hier.",
+        "btnLogin": "Login"
+    },
+    "nameDevice" : {
+        "btnBack": "Inloggen",
+        "title": "Naam toestel",
+        "text": "Geef uw apparaat een naam zodat u alle activiteit\n kunt volgen die met dit apparaat zijn gedaan.",
+        "btnSetup": "Setup Name"
+    },
+    "registerCards" : {
+        "btnBack": "Naam toestel",
+        "title": "Kaarten registreren",
+        "text": "In de doos kan je 5 Coupeza kaarten vinden\n Dit zijn Admin kaarten die je nodig hebt om toegang te hebben op het toestel. \nGelieve over het Coupeza logo te swipen om de kaarten te activeren.",
+        "btnSetup": "Registreer kaarten"
+    }
+  }
+}
